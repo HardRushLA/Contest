@@ -1,0 +1,2 @@
+# Contest
+HardRush Contest Page
