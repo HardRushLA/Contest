@@ -1,3 +1,8 @@
+
+To center the "Upload Here" button under the specified paragraph, we can use a <div> container with text-align: center; CSS property. Here's the updated HTML code:
+
+html
+Copy code
 <!DOCTYPE html>
 <html>
 <head>
@@ -27,14 +32,17 @@
             text-align: center;
             text-decoration: none;
             font-size: 16px;
-            margin: 40px;
+            margin: 10px;
+        }
+        /* Center-align container for the button */
+        .button-container {
+            text-align: center;
         }
     </style>
 </head>
 <body>
     <div class="logo-container">
         <img src="https://github.com/HardRushLA/Contest/blob/55c03db982b68811e3cd42914a9e910aa28e6f43/344306351_1277693649788965_6554655162747116811_n.PNG?raw=true" alt="HardRush Logo" width="600">
-       
     </div>
     <h1>HardRush DJ Competition</h1>
     <p>
@@ -73,7 +81,8 @@
 <p>
     For any questions or further information, please feel free to reach out to us at hardrushcontest@gmail.com.
 </p>
-
-         <div>
-            <a href="https://www.wetransfer.com/" class="wetransfer-button">Upload Here</a>
-        </div>
+    
+<!-- Center-aligned container for the button -->
+<div class="button-container">
+<a href="https://www.wetransfer.com/" class="wetransfer-button">Upload Here</a>
+</div>
