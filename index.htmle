@@ -14,6 +14,9 @@
             font-size: 36px;
             margin-bottom: 20px;
         }
+        .logo-container {
+            text-align: center;
+        }
         /* Additional styles for the button */
         .wetransfer-button {
             display: inline-block;
@@ -25,21 +28,19 @@
             text-align: center;
             text-decoration: none;
             font-size: 16px;
-            margin: 0;
-            position: absolute;
-            left: 0;
-            top: 50%;
-            transform: translateY(-50%);
+            margin: 10px;
         }
     </style>
 </head>
 <body>
-    <!-- Logo with the correct URL -->
     <div class="logo-container">
+        <!-- Logo with the correct URL and width set to 600 pixels -->
         <img src="https://github.com/HardRushLA/Contest/blob/55c03db982b68811e3cd42914a9e910aa28e6f43/344306351_1277693649788965_6554655162747116811_n.PNG?raw=true" alt="HardRush Logo" width="600">
-    </div>
-        <!-- WeTransfer Button -->
-    <a href="https://www.wetransfer.com/" class="wetransfer-button">Upload HERE</a>
+        <!-- WeTransfer Button positioned below the logo -->
+        <div>
+            <a href="https://www.wetransfer.com/" class="wetransfer-button">Upload Here</a>
+        </div>
+ 
     <h1>HardRush DJ Competition</h1>
     
      <p>
