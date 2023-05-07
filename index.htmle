@@ -36,13 +36,13 @@
 <body>
     <!-- Logo with the correct URL -->
     <div class="logo-container">
-        <img src="https://github.com/HardRushLA/Contest/blob/55c03db982b68811e3cd42914a9e910aa28e6f43/344306351_1277693649788965_6554655162747116811_n.PNG?raw=true" alt="HardRush Logo" width="200">
+        <img src="https://github.com/HardRushLA/Contest/blob/55c03db982b68811e3cd42914a9e910aa28e6f43/344306351_1277693649788965_6554655162747116811_n.PNG?raw=true" alt="HardRush Logo" width="600">
     </div>
+        <!-- WeTransfer Button -->
+    <a href="https://www.wetransfer.com/" class="wetransfer-button">Upload HERE</a>
     <h1>HardRush DJ Competition</h1>
-    <!-- WeTransfer Button -->
-    <a href="https://www.wetransfer.com/" class="wetransfer-button">Upload to WeTransfer</a>
-
-    <p>
+    
+     <p>
         As the years have gone by we have had difficulties keeping up with all the amazing up and coming DJs in and around
         Southern California. Looking to broaden our horizons and diversify our line ups, HardRush is having a competition
         open to all SoCal HardDance DJs for a time slot at the next HardRush. This edition of HardRush will take place on
